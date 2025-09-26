@@ -40,13 +40,18 @@
           run: npm ci
         - name: Build
           run: npm run build
+        - name: Copy public assets to root
+          run: |
+            mkdir -p ./deploy
+            cp -r ./dist/* ./deploy/
+            cp -r ./public/* ./deploy/
         - name: Setup Pages
           uses: actions/configure-pages@v5
         - name: Upload artifact
           uses: actions/upload-pages-artifact@v3
           with:
-            # Upload dist directory (Vite build output)
-            path: './dist'
+            # Upload combined directory
+            path: './deploy'
         - name: Deploy to GitHub Pages
           id: deployment
           uses: actions/deploy-pages@v4

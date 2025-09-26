@@ -21,7 +21,7 @@ const IngredientsStory = () => {
           <div className="text-center">
             <div className="mb-6 overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="/lovable-uploads/e9dfd20e-2ed0-421d-b52a-f6a7d0631eac.png" 
+                src="/la-spiseria/lovable-uploads/e9dfd20e-2ed0-421d-b52a-f6a7d0631eac.png" 
                 alt="Italian Cured Ham"
                 className="w-full h-64 object-cover"
               />
@@ -38,7 +38,7 @@ const IngredientsStory = () => {
           <div className="text-center">
             <div className="mb-6 overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="/lovable-uploads/990fa58b-0981-4d22-8a0c-14c0e0775522.png" 
+                src="/la-spiseria/lovable-uploads/990fa58b-0981-4d22-8a0c-14c0e0775522.png" 
                 alt="Mozzarella Fiordilatte"
                 className="w-full h-64 object-cover"
               />
@@ -55,7 +55,7 @@ const IngredientsStory = () => {
           <div className="text-center">
             <div className="mb-6 overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="/lovable-uploads/812a89d5-7cc6-4c3a-9a96-fd6bb2fd7c4e.png" 
+                src="/la-spiseria/lovable-uploads/812a89d5-7cc6-4c3a-9a96-fd6bb2fd7c4e.png" 
                 alt="Italian Tomato Sauce"
                 className="w-full h-64 object-cover"
               />

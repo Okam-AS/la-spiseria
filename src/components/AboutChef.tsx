@@ -86,7 +86,7 @@ const AboutChef = () => {
               <div className="aspect-[4/5] bg-white rounded-lg overflow-hidden shadow-lg relative hover:shadow-xl transition-shadow">
                 {/* Pinsa image with better alt text for SEO */}
                 <img 
-                  src="/lovable-uploads/c842be55-0d1d-4988-a0de-9e274c785841.png" 
+                  src="/la-spiseria/lovable-uploads/c842be55-0d1d-4988-a0de-9e274c785841.png" 
                   alt="Autentisk italiensk Pinsa Romana fra La Spiseria Tønsberg - ferske ingredienser og tradisjonell 72-timers hevedeig"
                   className="object-cover w-full h-full"
                 />

@@ -22,7 +22,7 @@ const Hero = () => {
       style={{
         height: 'calc(100vh - 80px)',
         minHeight: '500px',
-        backgroundImage: 'url("/lovable-uploads/2e06ac55-0504-4041-bd34-c9e8213bca18.png")',
+        backgroundImage: 'url("/la-spiseria/lovable-uploads/2e06ac55-0504-4041-bd34-c9e8213bca18.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

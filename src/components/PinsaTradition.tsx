@@ -174,14 +174,14 @@ const PinsaTradition = () => {
       {/* Decorative elements with better alt text */}
       <div className="absolute top-0 left-0 opacity-5 -z-10">
         <img 
-          src="/lovable-uploads/3b9e8b6d-d4a3-413c-b17b-acdfc8925d7b.png" 
+          src="/la-spiseria/lovable-uploads/3b9e8b6d-d4a3-413c-b17b-acdfc8925d7b.png" 
           alt="Italienske ingredienser - La Spiseria Tønsberg" 
           className="w-48"
         />
       </div>
       <div className="absolute bottom-0 right-0 opacity-5 -z-10">
         <img 
-          src="/lovable-uploads/ad7f6b83-067f-42aa-a0b7-b9bd0e7703b0.png" 
+          src="/la-spiseria/lovable-uploads/ad7f6b83-067f-42aa-a0b7-b9bd0e7703b0.png" 
           alt="Fersk Pinsa Romana - La Spiseria tradisjon" 
           className="w-48"
         />

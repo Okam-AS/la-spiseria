@@ -68,7 +68,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="/lovable-uploads/f1e8dfe0-b22e-4b3d-a0ba-4575f5d81425.png" 
+                src="/la-spiseria/lovable-uploads/f1e8dfe0-b22e-4b3d-a0ba-4575f5d81425.png" 
                 alt="La Spiseria Logo" 
                 className="w-auto h-[140px] object-contain"
               />

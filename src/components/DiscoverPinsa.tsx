@@ -129,7 +129,7 @@ const DiscoverPinsa = () => {
           <div className="w-full md:w-1/2">
             <div className="aspect-[3/2] rounded-lg overflow-hidden shadow-lg relative">
               <img 
-                src="/lovable-uploads/9b20453b-3d00-4ec2-9e5a-98ca13a16f5f.png" 
+                src="/la-spiseria/lovable-uploads/9b20453b-3d00-4ec2-9e5a-98ca13a16f5f.png" 
                 alt="Om Italian Food Market Pinsa"
                 className="object-cover w-full h-full"
               />

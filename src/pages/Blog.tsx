@@ -496,7 +496,7 @@ export const blogPosts = [
     date: "2024-07-12",
     readTime: "7 min",
     content: blogPostsTranslations.post4.content,
-    image: "/lovable-uploads/dbfc0743-9bbf-42c3-9e50-3c4026e68073.png"
+    image: "/la-spiseria/lovable-uploads/dbfc0743-9bbf-42c3-9e50-3c4026e68073.png"
   },
   {
     id: "3",
@@ -506,7 +506,7 @@ export const blogPosts = [
     date: "2024-06-15",
     readTime: "6 min",
     content: blogPostsTranslations.post3.content,
-    image: "/lovable-uploads/1877237c-a570-4e24-867d-27095905ac48.png"
+    image: "/la-spiseria/lovable-uploads/1877237c-a570-4e24-867d-27095905ac48.png"
   },
   {
     id: "2",
@@ -516,7 +516,7 @@ export const blogPosts = [
     date: "2024-05-20",
     readTime: "5 min",
     content: blogPostsTranslations.post2.content,
-    image: "/lovable-uploads/6bdba3b0-8300-47ab-a084-964d808727b6.png"
+    image: "/la-spiseria/lovable-uploads/6bdba3b0-8300-47ab-a084-964d808727b6.png"
   },
   {
     id: "1",

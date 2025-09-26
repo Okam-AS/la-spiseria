@@ -89,7 +89,7 @@ const BlogPost = () => {
               {/* Featured image */}
               <div className="mb-8 rounded-lg overflow-hidden">
                 <img 
-                  src={post.id === "3" ? "/lovable-uploads/bd222a2a-f829-4bf8-8218-6c8e9540667f.png" : post.image}
+                  src={post.id === "3" ? "/la-spiseria/lovable-uploads/bd222a2a-f829-4bf8-8218-6c8e9540667f.png" : post.image}
                   alt={post.title[language]}
                   className="w-full h-auto"
                 />

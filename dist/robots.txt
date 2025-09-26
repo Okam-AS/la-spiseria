@@ -1,0 +1,20 @@
+
+# La Spiseria - Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://laspiseria.no/sitemap.xml
+
+# Specific crawl rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1

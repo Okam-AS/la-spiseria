@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 350 85% 43%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 0 0% 10%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 100%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 0%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 0 0% 10%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 100%;
+    
+    --sidebar-background: 0 0% 0%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-black text-white font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-italian text-white;
+  }
+}
+
+/* ... keep existing code (hero-pattern and other styles) the same */
+.hero-pattern {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23333333' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Custom button styles */
+.btn-primary {
+  @apply bg-pinseria-red hover:bg-pinseria-red/90 text-white px-6 py-2.5 rounded-md font-medium transition-colors;
+}
+
+.btn-secondary {
+  @apply border border-white text-white hover:bg-white/10 px-6 py-2.5 rounded-md font-medium transition-colors;
+}
+
+.btn-outline-white {
+  @apply border-white text-white hover:bg-white/10 px-6 py-2.5 rounded-md font-medium transition-colors;
+}
+
+/* Card styles */
+.card-base {
+  @apply bg-black rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border border-gray-800 text-white;
+}
+
+/* Section styles */
+.section-light {
+  @apply bg-black py-16 md:py-24 text-white;
+}
+
+.section-cream {
+  @apply bg-black py-16 md:py-24 text-white;
+}
+
+.section-green {
+  @apply bg-black text-white py-16 md:py-24;
+}
+
+/* Text styles */
+.text-headline {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold text-white;
+}
+
+.text-subtitle {
+  @apply text-xl md:text-2xl font-medium text-white;
+}
+
+.text-body {
+  @apply text-base text-white;
+}
+
+/* Italian text styles */
+.italian-text {
+  @apply font-italian;
+}
+
+.italian-flag-text {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Accent text styles */
+.accent-text-red {
+  @apply text-pinseria-red font-italian;
+}
+
+.accent-text-green {
+  @apply text-pinseria-brightgreen font-italian;
+}
+
+.accent-text-white {
+  @apply text-white font-italian;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

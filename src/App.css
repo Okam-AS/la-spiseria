@@ -1,0 +1,129 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  padding-top: 140px; /* Increased padding for the bigger header */
+}
+
+main {
+  overflow-x: hidden; /* Ensures parallax effects don't create horizontal scrollbars */
+}
+
+/* Blog page styles - make text white and background black */
+.blog-container {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.blog-container h1,
+.blog-container h2,
+.blog-container h3,
+.blog-container p,
+.blog-container span,
+.blog-container div,
+.blog-container a {
+  color: #ffffff !important;
+}
+
+/* Override any specific blog card styles */
+.blog-container .bg-white {
+  background-color: #000000 !important;
+}
+
+.blog-container .text-gray-500,
+.blog-container .text-gray-600,
+.blog-container .text-gray-700 {
+  color: #ffffff !important;
+}
+
+/* Blog post page styles */
+.blog-post-container {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.blog-post-container h1,
+.blog-post-container h2,
+.blog-post-container h3,
+.blog-post-container h4,
+.blog-post-container h5,
+.blog-post-container h6,
+.blog-post-container p,
+.blog-post-container span,
+.blog-post-container div,
+.blog-post-container a,
+.blog-post-container strong,
+.blog-post-container em,
+.blog-post-container li {
+  color: #ffffff !important;
+}
+
+/* Override specific text colors in blog post */
+.blog-post-container .text-gray-600,
+.blog-post-container .text-gray-700,
+.blog-post-container .prose p,
+.blog-post-container .prose,
+.blog-post-container .prose-lg {
+  color: #ffffff !important;
+}
+
+/* Override background colors for cards */
+.blog-post-container .bg-white,
+.blog-post-container .bg-pinseria-cream\/20 {
+  background-color: #000000 !important;
+}
+
+/* Ensure ALL prose content is white - more specific selectors */
+.blog-post-container .prose *,
+.blog-post-container .prose-lg * {
+  color: #ffffff !important;
+}
+
+.blog-post-container article p,
+.blog-post-container .container p,
+.blog-post-container .max-w-2xl p,
+.blog-post-container .max-w-none p {
+  color: #ffffff !important;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
